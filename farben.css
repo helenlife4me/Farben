@@ -1,0 +1,98 @@
+a {
+	border-radius: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: hsla(271, 76%, 53%, 0.788);
+	opacity: 0.6;
+	color: white;
+	text-decoration: none;
+	border-width: 150px;
+	display: inline-table;
+	line-height: 50px;
+	padding: 5px;
+	text-align: center;
+}
+a:hover {
+	opacity: 1;
+}
+a:active {
+	opacity: 1;
+}
+.highlight {
+	opacity: 1;
+}
+.lila {
+	background: linear-gradient (#85078565 #ffffff);
+	margin: 0px;
+	padding: 0px;
+}
+.green {
+	background-color: #0080005e;
+}
+.orange {
+	background-color: rgba(255, 166, 0, 0.322);
+}
+.gray {
+	background-color: rgba(128, 128, 128, 0.329);
+}
+nav {
+	display: flex;
+	margin-top: 150px;
+	margin-right: 150px;
+	float: right;
+}
+.punkte {
+	border-width: 6px;
+	border-color: #698cff;
+	border: solid;
+	margin: 20px;
+	margin-left: 240px;
+	padding: 6px;
+}
+.wirk {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 100px;
+}
+.border {
+	background-color: whitesmoke;
+}
+.martin3 {
+	margin: 30px 0;
+}
+div {
+	font-size: 30px;
+	font-family: cursive;
+	color: blueviolet;
+}
+#box {
+	background-color: #fff8dc;
+	margin-left: 240px;
+	margin-bottom: 150px;
+	border: 3px black solid;
+	width: 1000px;
+	height: 250px;
+	overflow: auto;
+	box-sizing: content-box;
+}
+
+#content {
+	background-color: #3f969636;
+}
+/Mixin itself @mixin clearfix() {
+	&::after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+}
+
+// Usage as a mixin
+.element {
+	@include clearfix;
+}
+.grund {
+	font-size: 30px;
+	font-family: fantasy;
+	margin: 100px 0 0 700px;
+}
